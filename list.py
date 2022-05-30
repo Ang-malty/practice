@@ -1,7 +1,6 @@
-class Andrew():
-    def __init__(self, be_googler=True):
-        self.kakao = "Fuck"
-        self.be_googler = True
+class List():
+    def __init__(self, data):
+        self.data = data
 
     def append(self, value):
         self.data = self.data + [value]
